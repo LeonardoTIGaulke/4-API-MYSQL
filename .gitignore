@@ -1,0 +1,7 @@
+__pycache__
+test.py
+*.json
+*.csv
+*.xls
+*.xlsx
+*.pdf
