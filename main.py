@@ -175,9 +175,6 @@ def query_all_companies(item: ItemQueryAllCompanies):
             print("\n ------------------ df_all_code_companies ------------------ ")
             print(df_all_code_companies)
             print(df_all_code_companies.info())
-
-
-
            
             all_companies = df_all_companies.to_json(orient="index")
 
@@ -279,8 +276,7 @@ def query_report(item: Item_Report):
 
             print("\n\n ------------------------------------------ columns_apont ------------------------------------------ ")
             print(columns_apont)
-
-
+            
             for ano in data_years:
                 for mes in data_months:
                     for setor in list_setores:
